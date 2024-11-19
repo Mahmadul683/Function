@@ -1,0 +1,12 @@
+#include<stdio.h>
+void fun(char *s)
+{
+    int len=strlen(s);
+    printf("%d",len);
+}
+int main()
+{
+    char s[10]="Hello";
+    fun(s);
+    
+}
